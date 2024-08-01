@@ -27,3 +27,10 @@ Trabalhando em importar font-family
 
 23:50
 Terminei a versão responsiva da Home Page, mas ainda sem desvendar a importação de font no tailwind.
+
+### 01/08/24 
+10:56 
+Finalizando a ABOUT page. 
+Resolver no final:
+    -font import
+    -drop-shadow
