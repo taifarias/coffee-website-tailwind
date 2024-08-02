@@ -11,32 +11,81 @@
     <title>About Page</title>
     
 </head>
-<body class="box-border">
+<body class="h-full " style="background-image: url('images/about-bg.jpg');">
     
-    <div class="bg-amber-950 h-screen bg-gradient-to-tr from-orange-900 to-amber-950 ">
-        <header class="flex" >
-            <img class="w-10 pt-2 ml-2" src="images/logo-pq.png" alt="logo cafácil">
-            <img class="absolute right-3 top-3 w-6 " src="images/cart.png" alt="">
+   
+    <div class="h-screen bg-gradient-to-tr ">
+
+
+        <header class="flex " >
+           
              
+
+            <nav class=" bg-orange-950 bg-opacity-55 w-full">
+                <img class="w-12 pt-4 pb-2 ml-2 lg:hidden " src="images/logo-pq.png" alt="logo cafácil">
+                <img class="absolute right-3 top-5 w-6 lg:hidden" src="images/cart.png" alt="">
+
+               
+                <ul class="max-lg:hidden flex justify-evenly ">
+
+                    <div class="logo md:w-56 md:mr-36  md:flex">
+                    <img class="xl:flex" src="images/logo.png" alt="logo cafácil">
+                     </div>
+    
+                    <li class="text-xl text-white xl:space-x-32  py-4" ><a href="#">Home</a></li>
+                    <li class="text-xl text-white xl:space-x-32  py-4" ><a href="/about.html">About</a></li>
+                    <li class="text-xl text-white xl:space-x-32  py-4" ><a href="#">Shop</a></li>
+                    <li class="text-xl text-white xl:space-x-32 py-4" ><a class="mr-6" href="#">Contato</a></li>
+                </ul>
+            </nav>
         </header>
-       <img class="filter drop-shadow-xl absolute pl-8 mt-8" src="images\homem-cafe.png" alt="">
-       
+ 
+        <div class="about-us text-white flex w-96" >
 
-        <div class="w-screen h-3/6 rounded-t-3xl bg-white bottom-0 absolute">
-            <h2 class="text-3xl text-center mt-6 drop-shadow-lg" >Sobre Nós</h2>
-            <p class="text-md text-center px-5 mt-12" >Nossa cafeteria é dedicada ao café artesanal. Selecionamos grãos especiais e torramos com cuidado para criar sabores únicos.</p>
-            <p class="text-md text-center px-8 mt-7" >Valorizamos a sustentabilidade e o comércio justo, oferecendo também doces e lanches. Queremos proporcionar momentos de prazer com cada xícara.</p>
+            <div id="texto">
+            <h2 class="font-bold text-4xl ml-32 mt-28" >Sobre Nós</h2>
+          
+            <p class="lg:absolute lg:text-2xl lg:text-center mt-14 px-64" >A <span class="font-bold">Cafacil</span> é uma cafeteria que oferece uma ampla variedade de grãos selecionados de diferentes regiões do mundo. Nosso foco é proporcionar uma experiência única, com cafés especiais que podem ser apreciados em nosso espaço acolhedor ou no conforto de sua casa.</p>
 
-            <div class="actionButton text-xl font-lex text-white text-center border border-amber-900 bg-amber-900 w-10/12 top-3/6  py-3.5 m-10 rounded-full right-10 "> 
-                <a href="/shop">Carta de Cafés &#8594;</a>
-                </div>
+            <p class="lg:absolute lg:text-2xl lg:text-center lg:mt-64 lg:px-80 hidden lg:flex" >Oferecemos um serviço de entrega eficiente e prático, trazendo até você nossa seleção de cafés artesanais e acessórios. Com nosso sistema de pedidos online, é fácil receber seus cafés favoritos em casa e explorar novos sabores com comodidade e qualidade.</p>
+           
+            </div>
+
+            <div id="homem-sentado" >
+            <img class="filter hidden lg:flex drop-shadow-xl lg:absolute bottom-0 right-10" src="images\homem-cafe.png" alt="">
+            </div>
 
             
 
         </div>
 
-    </div>
 
+   
+
+       
+       
+
+        <div class=" hidden w-screen rounded-t-3xl bg-white bottom-0 absolute">
+            <h2 class="text-4xl text-center mt-6 drop-shadow-lg  font-bold lg:text-5xl "   >Sobre Nós</h2>
+            <p class="text-2xl text-center px-5 mt-12 lg:text-3xl md:px-16" >Nossa cafeteria é dedicada ao café artesanal. Selecionamos grãos especiais e torramos com cuidado para criar sabores únicos.</p>
+            
+            <p class="text-2xl text-center px-8 mt-7 md:px-16 lg:text-3xl lg:mt-9" >Oferecemos um serviço de entrega eficiente e prático, trazendo até você nossa seleção de cafés artesanais e acessórios. Com nosso sistema de pedidos online, é fácil receber seus cafés favoritos em casa e explorar novos sabores com comodidade e qualidade.</p>
+
+            <div class="actionButton text-xl font-lex text-white text-center border border-amber-900 bg-amber-900 w-10/12 top-3/6  py-3.5 mt-20 ml-12 rounded-full right-10 lg:text-3xl"> 
+                <a href="/shop">Carta de Cafés &#8594;</a>
+                </div>        
+
+        </div>
+
+   
+
+
+
+    
+    </div>
+   
+
+    </div>
 
 </body>
 

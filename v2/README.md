@@ -19,7 +19,7 @@ Vamos ver a questão da resposividade agora
 
 quando nao estiver carregando, no teminal colocar:
 
-npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+npx tailwindcss -i ./input.css -o ./dist/main.css --watch
 
 ### 31/07/24 
 21:30
